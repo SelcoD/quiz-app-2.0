@@ -1,8 +1,8 @@
-### quiz-app 2.0
-
-# colors
+# Piggy Quizzz - Finest brainwax
 
 ---
+
+## colors :
 
 Main-Background (mint) = #F1FFFD
 
@@ -17,3 +17,7 @@ piggy-background = #FFDADD
 piggy-outline = #E95151
 
 Finest-brainwax = #2FB49E
+
+---
+
+## others:

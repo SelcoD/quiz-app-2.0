@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+  background-color: #f1fffd;
+}
+
+.header {
+  background-color: none;
+  padding: 0;
+  text-align: center;
+}
+.header img {
+  max-width: 100%;
+}
+
+main {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+}
+
+.logo {
+  display: flex;
+}
+footer {
+  flex: content;
+}
+
+.questioncard {
+  width: 90%;
+  border: 3px solid none;
+  border-radius: 20px;
+  margin: 30px 30px 30px 30px;
+  padding: 50px;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffdadd;
+
+  position: relative;
+}
+
+.bookmark {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.question {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #e95151;
+}
+
+.button-style {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: #20c7ab;
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.button-style:hover {
+  background-color: #e95151;
+}
+.button-style:active {
+  box-shadow: inset -2px -2px 3px #E95151(255, 0, 0, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.answer {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #e95151;
+}
+
+.tag {
+  list-style: none;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  background-color: #40a594;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 0.8rem;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  position: fixed;
+  height: 50px;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0px -1px 70px black;
+  background-color: #2fb49e;
+}
+
+.navigation-item {
+  margin: auto;
+}
