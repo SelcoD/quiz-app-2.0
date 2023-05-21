@@ -121,6 +121,9 @@ footer {
   background-color: #2fb49e;
 }
 
+.navigation-icon {
+  margin-top: 5px;
+}
+
 .navigation-item {
-  margin: auto;
 }
