@@ -13,8 +13,8 @@ body {
 .header {
   background-color: none;
   padding: 0;
-  text-align: center;
 }
+
 .header img {
   max-width: 100%;
 }
@@ -36,6 +36,7 @@ footer {
 .questioncard {
   width: 90%;
   border: 3px solid none;
+  box-shadow: 0 2px 8px 1px rgb(0 0 100 /0.2);
   border-radius: 20px;
   margin: 30px 30px 30px 30px;
   padding: 50px;
@@ -109,21 +110,32 @@ footer {
   font-size: 0.8rem;
 }
 
+.counter {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #40a594;
+  padding: 5px;
+}
+
 .navigation {
   display: flex;
-  justify-content: space-around;
+  height: 55px;
   list-style: none;
   position: fixed;
-  height: 50px;
   bottom: 0;
   width: 100%;
   box-shadow: 0px -1px 70px black;
+}
+
+.navigation-item {
+  flex-grow: 1;
   background-color: #2fb49e;
 }
 
 .navigation-icon {
-  margin-top: 5px;
-}
-
-.navigation-item {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
 }
