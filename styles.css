@@ -29,9 +29,6 @@ main {
 .logo {
   display: flex;
 }
-footer {
-  flex: content;
-}
 
 .questioncard {
   width: 90%;
@@ -113,38 +110,74 @@ footer {
   padding: 2px;
 }
 
-.counter {
-  list-style: none;
+footer {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
-  background-color: #40a594;
-  padding: 5px;
+  background-color: none;
 }
 
 .navigation {
   display: flex;
+  justify-content: space-around;
   height: 55px;
   list-style: none;
   position: fixed;
   bottom: 0;
   width: 100%;
   box-shadow: 0px -1px 70px black;
+  background-color: #20c7ab;
 }
 
-.navigation-item {
+/*.navigation-item {
   flex-grow: 1;
   background-color: #2fb49e;
-}
+}*/
 
 .navigation-icon {
   width: 100%;
   height: 100%;
   padding: 10px;
+  background-color: red;
+}
+
+.profile-site {
+  width: 90%;
+  border: 3px solid none;
+  box-shadow: 0 2px 8px 1px rgb(0 0 100 /0.2);
+  border-radius: 20px;
+  margin: 30px 30px 30px 30px;
+  padding: 50px;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffdadd;
+  position: relative;
 }
 
 .profile-picture {
   width: 200px;
   height: auto;
   border-radius: 50%;
+}
+
+.counter-section {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: none;
+  color: rgb(255, 255, 255);
+  font-size: 0.8rem;
+}
+
+.counter-tag {
+  background-color: #2fb49e;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.counter {
+  background-color: #2fb49e;
+  border-radius: 5px;
+  padding: 2px;
 }
