@@ -97,17 +97,20 @@ footer {
   color: #e95151;
 }
 
-.tag {
+.tag-list {
   list-style: none;
   display: flex;
-  flex-direction: center;
-  justify-content: center;
-  background-color: #40a594;
-  border-radius: 5px;
-  padding: 5px;
-  margin: 20px;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: none;
   color: rgb(255, 255, 255);
   font-size: 0.8rem;
+}
+
+.tag {
+  background-color: #2fb49e;
+  border-radius: 5px;
+  padding: 2px;
 }
 
 .counter {
