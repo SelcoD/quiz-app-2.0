@@ -46,9 +46,14 @@ main {
 }
 
 .bookmark {
+  background-color: transparent;
+  border: none;
   position: absolute;
   top: -10px;
   right: -10px;
+}
+.bookmark:hover {
+  cursor: pointer;
 }
 
 .question {
@@ -110,22 +115,36 @@ main {
   padding: 2px;
 }
 
-footer {
-  display: flex;
-  justify-content: space-around;
+.footer {
   background-color: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 55px;
 }
 
 .navigation {
   display: flex;
-  justify-content: space-around;
-  height: 55px;
   list-style: none;
-  position: fixed;
-  bottom: 0;
   width: 100%;
   box-shadow: 0px -1px 70px black;
   background-color: #20c7ab;
+}
+
+.navigation__tab {
+  flex-grow: 1;
+  text-align: center;
+  height: 100%;
+  justify-content: center;
+}
+
+.anker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  width: 55px;
 }
 
 /*.navigation-item {
@@ -171,13 +190,17 @@ footer {
 }
 
 .counter-tag {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   background-color: #2fb49e;
   border-radius: 5px;
   margin: 10px;
 }
 
-.counter {
-  background-color: #2fb49e;
-  border-radius: 5px;
-  padding: 2px;
+.setting {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
 }
