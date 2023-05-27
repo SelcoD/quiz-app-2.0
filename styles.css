@@ -37,12 +37,23 @@ main {
   border-radius: 20px;
   margin: 30px 30px 30px 30px;
   padding: 50px;
-  box-shadow: none;
   display: flex;
   flex-direction: column;
   background-color: #ffdadd;
 
   position: relative;
+}
+
+.profile-card {
+  width: 90%;
+  border: 3px solid none;
+  box-shadow: 0 2px 8px 1px rgb(0 0 100 /0.2);
+  border-radius: 20px;
+  margin: 30px 30px 30px 30px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffdadd;
 }
 
 .bookmark {
@@ -85,6 +96,7 @@ main {
 
 .button-style:hover {
   background-color: #e95151;
+  cursor: pointer;
 }
 .button-style:active {
   box-shadow: inset -2px -2px 3px #E95151(255, 0, 0, 0.6),
@@ -147,17 +159,17 @@ main {
   width: 55px;
 }
 
-/*.navigation-item {
-  flex-grow: 1;
-  background-color: #2fb49e;
-}*/
+.navigation-active {
+  background-color: #279a87;
+}
 
-.navigation-icon {
+/* .navigation-icon {
+rgb(28, 120, 104)rgb(21, 94, 82) 
   width: 100%;
   height: 100%;
   padding: 10px;
   background-color: red;
-}
+} */
 
 .profile-site {
   width: 90%;
@@ -203,4 +215,24 @@ main {
   justify-content: space-around;
   align-items: center;
   margin: 20px;
+}
+
+.dark {
+  background-color: black;
+}
+
+body.dark {
+  background-color: #000;
+  color: white;
+}
+.header.dark {
+  background-color: #000;
+}
+
+.navigation.dark {
+  background-color: #10463d;
+}
+
+.profile-card.dark {
+  background-color: #58484a;
 }
