@@ -1,4 +1,4 @@
-### quiz-app 2.0
+### Small Quizz-App
 
 # colors
 
